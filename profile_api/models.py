@@ -4,3 +4,4 @@ from django.db import models
 class Employee(models.Model):
 	age = models.CharField(max_length=100)
 	name = models.CharField(max_length=200)
+	last_name = models.CharField(max_length=200)
