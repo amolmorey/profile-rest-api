@@ -7,3 +7,4 @@ class Employee(models.Model):
 	last_name = models.CharField(max_length=200)
 	fiest = models.CharField(max_length=200)
 	age = models.IntegerField(max_length=200)
+	amount = models.IntegerField(max_length=200)
